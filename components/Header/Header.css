@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  position: absolute; 
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 2px solid black;
+  background-color: rgba(128, 128, 128, 0.95);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  transition: 0.5s ease;
+}
+
+#navBurguer{
+  display: none;
+}
+
+#logo{
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 6px;
+}
+
+#navList{
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  gap: 20px;
+}
+
+#navList a{
+  transition: 0.3s ease;
+}
+
+#navList a:hover,
+#navList a.active{
+  color: red;
+}
+
+
