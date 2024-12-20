@@ -18,7 +18,6 @@ const create = () => {
   initSlider();
   NavBurguer();
   destinationScrollToggle();
-  TraverListener();
 }
 
 //Fixed navbar while scrolling
@@ -158,14 +157,6 @@ const destinationScrollToggle = () => {
   tl_box4.to(".box4", {x: 2000, opacity: 1, duration: 1})
   tl_box5.to(".box5", {x: 2000, opacity: 1, duration: 1})
 };
-
-/*
-const TraverListener = () => {
-  console.log("1")
-  document.querySelector("#TravelPackages")?.addEventListener("click", () => {
-    console.log("2");
-  });
-};*/
 
 
 create();
