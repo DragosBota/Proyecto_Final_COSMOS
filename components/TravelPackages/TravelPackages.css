@@ -1,0 +1,24 @@
+#TravelPackages{
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 200vh;
+  border-radius: 20px;
+  border: 2px solid green;
+}
+
+#TravelPackages h4{
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #2C4251;
+  margin: 12vh 40px;
+}
+
+#travelContainer{
+  height: 100%;
+  width: 100%;
+  width: fit-content;
+  border: 2px solid red;
+  margin: 12vh 40px;
+
+}

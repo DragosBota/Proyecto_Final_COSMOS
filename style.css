@@ -13,11 +13,14 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  width: 100%;
+  background-color: #2c425126;
 }
+
 
 a{
   text-decoration: none;
-  color: black;
+  color: #2C4251;
 }
 
 li{
