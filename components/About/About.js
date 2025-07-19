@@ -11,7 +11,7 @@ const template = () => {
     </div>
 
     <div id="card2">
-    <img src="./public/assets/destinations-2.jpg" alt="">
+    <img src="/assets/destinations-2.jpg" alt="">
     </div>
 
     <div id="card3">
