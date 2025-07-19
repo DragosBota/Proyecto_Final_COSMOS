@@ -32,7 +32,7 @@ const template = () => {
     </div>
 
     <div id="card6">  
-    <img src="./public/assets/card6.jpg" alt="">
+    <img src="/assets/card6.jpg" alt="">
     </div>
   </section>
 
