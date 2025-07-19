@@ -23,35 +23,35 @@ const template = () =>{
   <section class="gallery">
 
     <div class="box box1">
-      <img src="./public/assets/home-background.jpg" alt="">
+      <img src="/assets/home-background.jpg" alt="">
       <div class="text">
         <h2>East Nusa Tenggara</h2>
       </div>
     </div>
 
     <div class="box box2">
-      <img src="./public/assets/destinations-1.jpg" alt="">
+      <img src="/assets/destinations-1.jpg" alt="">
       <div class="text">
         <h2>Bali</h2>
       </div>
     </div>
 
     <div class="box box3">
-      <img src="./public/assets/destinations-2.jpg" alt="">
+      <img src="/assets/destinations-2.jpg" alt="">
       <div class="text">
         <h2>Bali</h2>
       </div>
     </div>
 
     <div class="box box4">
-      <img src="./public/assets/destinations-3.jpg" alt="">
+      <img src="/assets/destinations-3.jpg" alt="">
       <div class="text">
         <h2>East Java</h2>
       </div>
     </div>
 
     <div class="box box5">
-      <img src="./public/assets/destinations-4.jpg" alt="">
+      <img src="/assets/destinations-4.jpg" alt="">
       <div class="text">
         <h2>West Papua</h2>
       </div>
