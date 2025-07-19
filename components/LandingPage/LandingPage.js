@@ -4,7 +4,7 @@ const template = () =>{
   return `
   <section id="CONTAINER">
   <div id="slide-1" class="slide active">
-    <img id="slider-1" src="./public/assets/beachcomber_island_fiji-wallpaper-2560x1440.jpg" alt="">
+    <img id="slider-1" src="/assets/beachcomber_island_fiji-wallpaper-2560x1440.jpg" alt="">
     <div id="content">
       <h1>Bali<br> <span>Island 1</span></h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam maxime consectetur tenetur cum laborum vel cumque aspernatur sed illum iste ex hic et beatae quam, voluptas, error culpa laboriosam? Dolor.</p>
@@ -13,7 +13,7 @@ const template = () =>{
   </div>
 
   <div id="slide-2" class="slide">
-  <img id="slider-2" src="./public/assets/destinations-1.jpg" alt="">
+  <img id="slider-2" src="/assets/destinations-1.jpg" alt="">
     <div id="content">
       <h1>Wonderful <br> <span>Island 2</span></h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam maxime consectetur tenetur cum laborum vel cumque aspernatur sed illum iste ex hic et beatae quam, voluptas, error culpa laboriosam? Dolor.</p>
