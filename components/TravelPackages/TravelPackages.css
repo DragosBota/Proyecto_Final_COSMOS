@@ -1,53 +1,56 @@
-#TravelPackages{
-  margin: 0;
+#TravelPackages {
+  margin: 0 auto;
+  padding: 40px 20px;
+  max-width: 1200px;   
   box-sizing: border-box;
-  width: 100%;
-  border-radius: 20px;
 }
 
-#TravelPackages h4{
+#TravelPackages h4 {
   text-transform: uppercase;
   letter-spacing: 1.5px;
   color: #2C4251;
-  margin: 12vh 40px;
+  margin-bottom: 40px;
 }
 
-#travelContainer{
-  height: fit-content;
-  width: 100%;
-  width: fit-content;
-  margin: 12vh 40px;
-  display: flex;
+#travelContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 40px;
-  flex-wrap: wrap;
-  padding: 10px;
 }
 
-.package{
-  height: 400px;
+.package {
   border: 1px solid #2c425120;
   border-radius: 20px;
   padding: 20px;
-  transition: ease 0.5s;
+  transition: transform 0.3s ease;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.package:hover{
-  transform: scale(1.1);
-  background-color: rgba(255, 255, 255, 0.611);
+.package:hover {
+  transform: scale(1.05);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
-.package img{
-  height: 200px;
-  border-radius: 20px;
+.package img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 15px;
 }
 
-.package h5{
-  margin-top: 20px;
-  font-size: 1.5rem;
+.package h5 {
+  margin-top: 15px;
+  font-size: 1.2rem;
   color: #2C4251;
+  text-align: center;
 }
 
-.package p{
+.package p {
   font-size: 1rem;
   color: #2C4251;
+  margin-top: 5px;
+  text-align: center;
 }
